@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>fortnite-info</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Luckiest+Guy&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header item-header">
+    <div class="header-left">
+      <a id="back" class="back-link" href="index.html">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>Terug
+      </a>
+      <a class="logo" href="index.html">fortnite-info</a>
+    </div>
+    <nav class="nav" aria-label="Menu">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link" href="shop.html">Vandaag in de shop</a>
+      <a class="nav-link" href="langst-niet-gezien.html">Langst niet gezien</a>
+      <a class="nav-link" href="favorieten.html">Favorieten</a>
+    </nav>
+    <form class="search-small" action="index.html" method="get" role="search">
+      <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input name="q" type="search" placeholder="Zoek..." aria-label="Zoeken" autocomplete="off">
+    </form>
+  </header>
+
+  <main id="item" class="item-page">
+    <p class="loading">Laden…</p>
+  </main>
+
+  <footer class="site-footer">Fansite, niet verbonden aan Epic Games.</footer>
+
+  <script src="assets/common.js"></script>
+  <script src="assets/item.js"></script>
+</body>
+</html>

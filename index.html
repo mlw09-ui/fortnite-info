@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>fortnite-info — Zoek je Fortnite skin</title>
+  <meta name="description" content="Zoek een Fortnite skin, pickaxe, glider of back bling en zie waar hij vandaan komt, wanneer hij laatst te koop was en welke stijlen hij heeft.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Luckiest+Guy&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">fortnite-info</a>
+    <nav class="nav">
+      <a class="nav-link active" href="index.html">Home</a>
+      <a class="nav-link" href="shop.html">Vandaag in de shop</a>
+      <a class="nav-link" href="langst-niet-gezien.html">Langst niet gezien</a>
+      <a class="nav-link" href="favorieten.html">Favorieten</a>
+    </nav>
+  </header>
+
+  <main class="home">
+    <h1 class="hero-title">Zoek je skin</h1>
+
+    <label class="search-big">
+      <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" type="search" autocomplete="off" spellcheck="false" autofocus
+             placeholder="Zoek een skin, pickaxe, glider of back bling..." aria-label="Zoek een item">
+    </label>
+
+    <div class="type-buttons" role="group" aria-label="Type">
+      <button type="button" class="pill active" data-type="">Alles</button>
+      <button type="button" class="pill" data-type="outfit">Skins</button>
+      <button type="button" class="pill" data-type="pickaxe">Pickaxes</button>
+      <button type="button" class="pill" data-type="glider">Gliders</button>
+      <button type="button" class="pill" data-type="backpack">Back Blings</button>
+    </div>
+
+    <div class="filter-bar">
+      <label class="field">
+        <span>Chapter</span>
+        <select id="chapter"><option value="">Alle chapters</option></select>
+      </label>
+      <label class="field">
+        <span>Seizoen</span>
+        <select id="season" disabled><option value="">Kies eerst een chapter</option></select>
+      </label>
+      <label class="field">
+        <span>Sorteren</span>
+        <select id="sort">
+          <option value="best">Beste match</option>
+          <option value="az">Naam A → Z</option>
+          <option value="za">Naam Z → A</option>
+          <option value="new">Nieuwste eerst</option>
+          <option value="old">Oudste eerst</option>
+          <option value="rarity">Rarity (hoog → laag)</option>
+        </select>
+      </label>
+      <button type="button" id="reset" class="reset-link">Wissen</button>
+    </div>
+
+    <p id="count" class="result-count" aria-live="polite">Laden…</p>
+    <div id="grid" class="grid"></div>
+    <p id="more" class="more-note" hidden></p>
+  </main>
+
+  <footer class="site-footer">Fansite, niet verbonden aan Epic Games.</footer>
+
+  <script src="assets/common.js"></script>
+  <script src="assets/home.js"></script>
+</body>
+</html>

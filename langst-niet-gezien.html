@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Langst niet gezien — fortnite-info</title>
+  <meta name="description" content="Fortnite shop items die het langst niet meer in de item shop zijn geweest.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Luckiest+Guy&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">fortnite-info</a>
+    <nav class="nav">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link" href="shop.html">Vandaag in de shop</a>
+      <a class="nav-link active" href="langst-niet-gezien.html" aria-current="page">Langst niet gezien</a>
+      <a class="nav-link" href="favorieten.html">Favorieten</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <h1 class="page-title">Langst niet gezien</h1>
+    <p class="page-sub">Shop items die het langst niet meer in de item shop zijn geweest. Battle pass- en event-items komen nooit terug en staan hier dus niet tussen.</p>
+
+    <div class="type-buttons" role="group" aria-label="Type">
+      <button type="button" class="pill active" data-type="">Alles</button>
+      <button type="button" class="pill" data-type="outfit">Skins</button>
+      <button type="button" class="pill" data-type="pickaxe">Pickaxes</button>
+      <button type="button" class="pill" data-type="glider">Gliders</button>
+      <button type="button" class="pill" data-type="backpack">Back Blings</button>
+    </div>
+
+    <p id="count" class="result-count" aria-live="polite">Laden…</p>
+    <div id="grid" class="grid"></div>
+    <button type="button" id="more" class="pill load-more" hidden>Toon meer</button>
+  </main>
+
+  <footer class="site-footer">Fansite, niet verbonden aan Epic Games.</footer>
+
+  <script src="assets/common.js"></script>
+  <script src="assets/unseen.js"></script>
+</body>
+</html>

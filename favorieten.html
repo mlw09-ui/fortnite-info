@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Favorieten — fortnite-info</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Luckiest+Guy&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">fortnite-info</a>
+    <nav class="nav">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link" href="shop.html">Vandaag in de shop</a>
+      <a class="nav-link" href="langst-niet-gezien.html">Langst niet gezien</a>
+      <a class="nav-link active" href="favorieten.html" aria-current="page">Favorieten</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <h1 class="page-title">Favorieten</h1>
+    <p class="page-sub">Je favorieten worden alleen in deze browser bewaard.</p>
+    <p id="no-storage" class="notice" hidden>Deze browser laat de site niets bewaren (bijvoorbeeld in privé-modus). Je favorieten verdwijnen als je de pagina sluit.</p>
+
+    <p id="count" class="result-count" aria-live="polite">Laden…</p>
+    <div id="grid" class="grid"></div>
+  </main>
+
+  <footer class="site-footer">Fansite, niet verbonden aan Epic Games.</footer>
+
+  <script src="assets/common.js"></script>
+  <script src="assets/favorites.js"></script>
+</body>
+</html>

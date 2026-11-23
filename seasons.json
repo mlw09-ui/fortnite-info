@@ -1,0 +1,54 @@
+{
+  "_note": "Fortnite Battle Royale seasons. To map a date to a season: pick the LAST entry whose start <= date. End dates are informational only (sources disagree by a day here and there; using start dates avoids overlaps). The last entry's end date is the scheduled end; add new seasons at the bottom as they start. Source: beebom.com season timeline, checked 2026-11-22.",
+  "seasons": [
+    { "chapter": "1", "season": "1",   "label": "Chapter 1 Season 1",  "name": "First Steps",          "start": "2017-10-25", "end": "2017-12-13" },
+    { "chapter": "1", "season": "2",   "label": "Chapter 1 Season 2",  "name": "Fort Knights",         "start": "2017-12-14", "end": "2018-02-21" },
+    { "chapter": "1", "season": "3",   "label": "Chapter 1 Season 3",  "name": "Meteor Strike",        "start": "2018-02-22", "end": "2018-04-30" },
+    { "chapter": "1", "season": "4",   "label": "Chapter 1 Season 4",  "name": "Brace for Impact",     "start": "2018-05-01", "end": "2018-07-12" },
+    { "chapter": "1", "season": "5",   "label": "Chapter 1 Season 5",  "name": "Worlds Collide",       "start": "2018-07-12", "end": "2018-09-27" },
+    { "chapter": "1", "season": "6",   "label": "Chapter 1 Season 6",  "name": "Darkness Rises",       "start": "2018-09-27", "end": "2018-12-06" },
+    { "chapter": "1", "season": "7",   "label": "Chapter 1 Season 7",  "name": "You Better Watch Out", "start": "2018-12-06", "end": "2019-02-28" },
+    { "chapter": "1", "season": "8",   "label": "Chapter 1 Season 8",  "name": "X Marks the Spot",     "start": "2019-02-28", "end": "2019-05-09" },
+    { "chapter": "1", "season": "9",   "label": "Chapter 1 Season 9",  "name": "The Future Is Yours",  "start": "2019-05-09", "end": "2019-08-01" },
+    { "chapter": "1", "season": "X",   "label": "Chapter 1 Season X",  "name": "Out of Time",          "start": "2019-08-01", "end": "2019-10-13" },
+
+    { "chapter": "2", "season": "1",   "label": "Chapter 2 Season 1",  "name": "New World",            "start": "2019-10-15", "end": "2020-02-20" },
+    { "chapter": "2", "season": "2",   "label": "Chapter 2 Season 2",  "name": "Top Secret",           "start": "2020-02-20", "end": "2020-06-17" },
+    { "chapter": "2", "season": "3",   "label": "Chapter 2 Season 3",  "name": "Splash Down",          "start": "2020-06-17", "end": "2020-08-27" },
+    { "chapter": "2", "season": "4",   "label": "Chapter 2 Season 4",  "name": "Nexus War",            "start": "2020-08-27", "end": "2020-12-01" },
+    { "chapter": "2", "season": "5",   "label": "Chapter 2 Season 5",  "name": "Zero Point",           "start": "2020-12-02", "end": "2021-03-15" },
+    { "chapter": "2", "season": "6",   "label": "Chapter 2 Season 6",  "name": "Primal",               "start": "2021-03-16", "end": "2021-06-07" },
+    { "chapter": "2", "season": "7",   "label": "Chapter 2 Season 7",  "name": "Invasion",             "start": "2021-06-08", "end": "2021-09-12" },
+    { "chapter": "2", "season": "8",   "label": "Chapter 2 Season 8",  "name": "Cubed",                "start": "2021-09-13", "end": "2021-12-04" },
+
+    { "chapter": "3", "season": "1",   "label": "Chapter 3 Season 1",  "name": "Flipped",              "start": "2021-12-05", "end": "2022-03-19" },
+    { "chapter": "3", "season": "2",   "label": "Chapter 3 Season 2",  "name": "Resistance",           "start": "2022-03-20", "end": "2022-06-04" },
+    { "chapter": "3", "season": "3",   "label": "Chapter 3 Season 3",  "name": "Vibin'",               "start": "2022-06-05", "end": "2022-09-17" },
+    { "chapter": "3", "season": "4",   "label": "Chapter 3 Season 4",  "name": "Paradise",             "start": "2022-09-18", "end": "2022-12-03" },
+
+    { "chapter": "4", "season": "1",   "label": "Chapter 4 Season 1",  "name": "A New Beginning",      "start": "2022-12-04", "end": "2023-03-10" },
+    { "chapter": "4", "season": "2",   "label": "Chapter 4 Season 2",  "name": "MEGA",                 "start": "2023-03-10", "end": "2023-06-09" },
+    { "chapter": "4", "season": "3",   "label": "Chapter 4 Season 3",  "name": "WILDS",                "start": "2023-06-09", "end": "2023-08-25" },
+    { "chapter": "4", "season": "4",   "label": "Chapter 4 Season 4",  "name": "Last Resort",          "start": "2023-08-25", "end": "2023-11-03" },
+    { "chapter": "4", "season": "OG",  "label": "Chapter 4 Season OG", "name": "Fortnite OG",          "start": "2023-11-03", "end": "2023-12-02" },
+
+    { "chapter": "5", "season": "1",   "label": "Chapter 5 Season 1",  "name": "Underground",          "start": "2023-12-03", "end": "2024-03-08" },
+    { "chapter": "5", "season": "2",   "label": "Chapter 5 Season 2",  "name": "Myths & Mortals",      "start": "2024-03-09", "end": "2024-05-24" },
+    { "chapter": "5", "season": "3",   "label": "Chapter 5 Season 3",  "name": "Wrecked",              "start": "2024-05-24", "end": "2024-08-16" },
+    { "chapter": "5", "season": "4",   "label": "Chapter 5 Season 4",  "name": "Absolute Doom",        "start": "2024-08-16", "end": "2024-11-02" },
+    { "chapter": "2", "season": "Remix", "label": "Chapter 2 Remix",   "name": "Fortnite Remix",       "start": "2024-11-02", "end": "2024-11-30" },
+
+    { "chapter": "6", "season": "1",   "label": "Chapter 6 Season 1",  "name": "Hunters",              "start": "2024-12-01", "end": "2025-02-21" },
+    { "chapter": "6", "season": "2",   "label": "Chapter 6 Season 2",  "name": "Lawless",              "start": "2025-02-21", "end": "2025-05-02" },
+    { "chapter": "6", "season": "Mini 1", "label": "Chapter 6 Mini Season 1", "name": "Galactic Battle", "start": "2025-05-02", "end": "2025-06-07" },
+    { "chapter": "6", "season": "3",   "label": "Chapter 6 Season 3",  "name": "Super",                "start": "2025-06-07", "end": "2025-08-07" },
+    { "chapter": "6", "season": "4",   "label": "Chapter 6 Season 4",  "name": "Shock 'N Awesome",     "start": "2025-08-07", "end": "2025-11-01" },
+    { "chapter": "6", "season": "Mini 2", "label": "Chapter 6 Mini Season 2", "name": "The Simpsons",  "start": "2025-11-01", "end": "2025-11-29" },
+
+    { "chapter": "7", "season": "1",   "label": "Chapter 7 Season 1",  "name": "Pacific Break",        "start": "2025-11-29", "end": "2026-03-19" },
+    { "chapter": "7", "season": "2",   "label": "Chapter 7 Season 2",  "name": "Showdown",             "start": "2026-03-19", "end": "2026-06-05" },
+    { "chapter": "7", "season": "3",   "label": "Chapter 7 Season 3",  "name": "Runners",              "start": "2026-06-06", "end": "2026-08-20" },
+    { "chapter": "7", "season": "4",   "label": "Chapter 7 Season 4",  "name": "Override",             "start": "2026-08-20", "end": "2026-11-01" },
+    { "chapter": "7", "season": "Mini", "label": "Chapter 7 Mini Season", "name": "Treasure Hunters",  "start": "2026-11-01", "end": "2026-12-05" }
+  ]
+}

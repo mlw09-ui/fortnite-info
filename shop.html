@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vandaag in de shop — fortnite-info</title>
+  <meta name="description" content="Alle skins, pickaxes, gliders en back blings in de Fortnite item shop van vandaag, met prijzen in V-Bucks.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Luckiest+Guy&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">fortnite-info</a>
+    <nav class="nav">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link active" href="shop.html" aria-current="page">Vandaag in de shop</a>
+      <a class="nav-link" href="langst-niet-gezien.html">Langst niet gezien</a>
+      <a class="nav-link" href="favorieten.html">Favorieten</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <h1 class="page-title">Vandaag in de shop</h1>
+    <p id="shop-date" class="page-sub">Laden…</p>
+    <p id="stale" class="notice" hidden></p>
+
+    <div class="type-buttons" role="group" aria-label="Type">
+      <button type="button" class="pill active" data-type="">Alles</button>
+      <button type="button" class="pill" data-type="outfit">Skins</button>
+      <button type="button" class="pill" data-type="pickaxe">Pickaxes</button>
+      <button type="button" class="pill" data-type="glider">Gliders</button>
+      <button type="button" class="pill" data-type="backpack">Back Blings</button>
+    </div>
+
+    <p id="count" class="result-count" aria-live="polite"></p>
+    <div id="grid" class="grid"></div>
+  </main>
+
+  <footer class="site-footer">Fansite, niet verbonden aan Epic Games.</footer>
+
+  <script src="assets/common.js"></script>
+  <script src="assets/shop.js"></script>
+</body>
+</html>
